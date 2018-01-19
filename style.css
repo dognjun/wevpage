@@ -1,0 +1,330 @@
+body{
+    margin: auto;
+    font-size: 14px;
+    font-family: "malgun gothic", sans-serif;
+    width: 100%;
+    height: 2500px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding-top: 1px;
+    position: fixed;
+}
+.logo{
+    width: 63px;
+    height: 40px;
+
+    margin-left: 3%;
+    margin-top: 6px;
+    background-image: url("../image/logo_1.png");
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    width: 300px;
+    height: 24px;
+    background-color: #fff;
+    position: relative ;
+    float: right;
+    margin-right: 20px;
+    bottom: 40px;
+    visibility: visible;
+}
+.nav > ul{
+    list-style-type: none;
+}
+.nav > ul > li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 3450px;
+    background-color: #ffffff;
+}
+.contents1{
+    width: 95%;
+    height: 25%;
+    background-color: black;
+    padding-top: 1px;
+    margin: auto;
+}
+.hi-msg{
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "helvetica";
+    font-size: 100px;
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.main-msg{
+    color: #888;
+    text-align: center;
+    font-family: "malgun gothic", sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.button1{
+    width: 32px;
+    height: 22px;
+    margin: auto;
+    margin-top: 80px;
+
+}
+.wbtn{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%{
+        animation-timing-function: ease-out;
+        bottom: 20px;
+    }
+    100%{
+        bottom: 20px;
+        animation-timing-function: ease-in;
+
+    }
+}
+.contents2{
+    width: 95%;
+    height: 25%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding-top: 1px;
+}
+.indexbox1{
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    margin-left: 10%;
+}
+.image8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+}
+.textbox1{
+    width: 500px;
+    height: 420px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.image3{
+    width: 120px;
+    height: 240px;
+    transform: rotate(45deg);
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+
+}
+.index1{
+    color: black;
+    font-size: 150px;
+    font-family: "malgun gothic", sans-serif;
+    transform: rotate(-90deg);
+}
+.life-title{
+    color: black;
+    font-size: 40px;
+}
+.life{
+    color: black;
+    font-size: 15px;
+    font-family: "malgun gothic", sans-serif;
+    line-height: 24px;
+}
+.button2{
+    width: 150px;
+    height: 60px;
+    position: absolutee;
+    margin: auto;
+    margin-top: 120px;
+
+}
+.send-b{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+    bottom: 80px;
+}
+.contents3{
+    width: 95%;
+    height: 25%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding-top: 1px;
+}
+.plusImg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 250px;
+    top: 290px;
+}
+.work-t{
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.work-title{
+    color: black;
+    font-size: 150px;
+    font-family: "malgun gothic", sans-serif;
+}
+.work-sub-title{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 1px;
+}
+.lineImg{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    float: right;
+    right: 300px;
+    bottom: 110px;
+}
+.index-w{
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+.index-w1{
+    width: 350px;
+    position: absolute;
+}
+.index-w2{
+    width: 350px;
+    margin-left: 60%;
+    position: relative;
+    padding-top: 1px;
+}
+.contents4{
+    width: 95%;
+    height: 25%;
+    background-color: black;
+    margin: auto;
+}
+.wrap1{
+    height: 30%;
+    background-color: #FFFFFF;
+}
+.profile2{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.logo-w{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    bottom: 200px;
+}
+.button4{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    position: relative;
+    top: 180px;
+}
+.sendme{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: "malgun gothic", sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.hellome{
+    color: #FFFFFF;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    line-height: 22px;
+    bottom: 10px;
+}
+.star{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.footer{
+    height: 150px;
+    width:100%;
+    background-color: #fff;
+    padding-top: 1px;
+}
+.row{
+    text-align: center;
+    font-size: 20px;
+}
+.copy-soyoon{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}
+.none{
+    text-decoration-line: none;
+    color:black;
+    padding-left: 20px;
+}
+.none:hover{
+    text-decoration-line: underline;
+}
+.input-text{
+    text-align: center;
+}
+.send{
+    width: 410px;
+    margin: auto;
+    text-align: right;
+}
+.wordInput{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.send-button{
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    outline: solid 2px #eeeeee;
+    background-color: black;
+    color: #fff;
+}
+
+@media (max-width: 930px) {
+    .plusImg, .lineImg, .sendme, .button4, .star, .image8{
+        visibility: hidden;
+    }
+    .index1{
+        float: left;
+    }
+
+}
